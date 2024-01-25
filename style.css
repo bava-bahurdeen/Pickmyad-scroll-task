@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+  gap: 50px;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: 'Figtree', sans-serif;
+}
+.content-head{
+    margin-left: 60px;
+}
+.content-head>h1{
+  
+    font-size: 50px;
+    font-weight: 600;
+}
+.content-head>p{
+    width: 580px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1>button{
+    width: 220px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: #e8effd;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a61e9;
+    padding-top: -20px;
+
+}
+.content-scroll{
+    width: 800px;
+    height: 550px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.box{
+    width:660px;
+    height: 700px;
+    background: #c2e59c; 
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c); 
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    
+    border-radius: 20px;
+    padding-left: 160px;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+.cl1{
+    background:linear-gradient(to right, #00dbde, #fc00ff);
+}
+.cl2{
+background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.topic{
+    margin-top: 350px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.topic>h2{
+    font-size: 38px;
+
+}
+.topic>p{
+    margin-top: 20px;
+    width: 520px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.topic>button{
+    all: unset;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.box__image{
+    width: 357px;
+    height: 589px;
+    transition: 2s;
+}
